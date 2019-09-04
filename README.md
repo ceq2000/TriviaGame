@@ -24,15 +24,15 @@ Totally Trivial Trivia is a web based game, where a user has to answer a set of 
 `The trivia game has 6 functions and 3 click events`
 
 Functions created/used in this game are:
-- **3 functions are for the timer:** 
+**3 functions are for the timer:** 
 
 - set timer
 - decrement
 - clear timer
 
-- **The remaining 3 functions are for hiding or showing text.** Adds up the numbers associated to the crystal everytime a user clicks a crystal
+**The remaining 3 functions are for hiding or showing text.** 
 
-- **The click events are:** 
+**The click events are:** 
 
 - when user clicks Start button
 - when user clicks Done button
