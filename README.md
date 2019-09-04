@@ -38,9 +38,6 @@ Functions created/used in this game are:
 - when user clicks Done button
 - when user clicks on Radio button
 
-      The Click Event captures the users click and parses the number.
-
-
 ## List of Technologies Used:
 - - - 
 - HTML
