@@ -23,7 +23,6 @@ Totally Trivial Trivia is a web based game, where a user has to answer a set of 
 - - -
 `The trivia game has 6 functions and 3 click events`
 
-Functions created/used in this game are:
 **3 functions are for the timer:** 
 
 - set timer
