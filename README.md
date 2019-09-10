@@ -21,7 +21,7 @@ This trivia game is a timed nutrition trivia questionnaire, where a user has to 
 
 ## Javascript File
 - - -
-`The trivia game has 6 functions, 5 click events and 3 alerts.`
+`The trivia game has 6 functions, 5 click events and 3 display alerts.`
 
 **3 functions are for the timer:** 
 
