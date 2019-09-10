@@ -40,7 +40,6 @@ var questions = [{
     correctAnswer: 0    
 }];
 
-
 var currentQuestion = 0;
 var viewingAns = 0;
 var correctAnswers = 0;
@@ -48,13 +47,24 @@ var quizOver = false;
 var iSelectedAnswer = [];
 var c = 180;
 var t;
+
+function start() {
+    $("#startButton").hide();
+    timedCount();
+}
+
+window.onload = function() {
+    $("#startButton").on("click", start);
+}
+
+
 $(document).ready(function () {
     // Display the first question
     displayCurrentQuestion();
     $(this).find(".quizMessage").hide();
     $(this).find(".preButton").attr('disabled', 'disabled');
 
-    timedCount();
+    // timedCount();
 
     $(this).find(".preButton").on("click", function () {
 
@@ -96,7 +106,7 @@ $(document).ready(function () {
                 }
                 iSelectedAnswer[currentQuestion] = val;
 
-                currentQuestion++; // Since we have already displayed the first question on DOM ready
+                currentQuestion++; // Because we've previously displayed the first question on DOM ready
                 if (currentQuestion >= 1) {
                     $('.preButton').prop("disabled", false);
                 }
