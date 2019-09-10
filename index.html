@@ -11,20 +11,26 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=cabin">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>Trivia Game</title>
+    <title>Nutrition Trivia Game</title>
 <body>
     <div class="container" style="align-content: center">
         <header>
             <div class="jumbotron text-center jumbo-style"
                 style="background-color: green; color: white; text-align:center; height:9cm"> 
                 <h1>Nutrition Trivia Game</h1>
+                <div class="container">
+                    <button id="startButton" class="btn btn-success btn-lg">
+                        START GAME
+                    </button>   
+                </div>
+                
                 <span id="iTimeShow" style="font-size: 20px">Time Remaining: </span><br />
                 <span id='timer' style="font-size:35px;"></span>
                 <div class="container" style="align-content: center">
-                    <div class="quizMessage"></div>
+                <div class="quizMessage"></div>
                 </div>
             </div>
-        </header>
+        </header>   
     </div>
     <!-- DIV for question with multiple choice answers-->   
     <div class="quizContainer container-fluid well well-lg"> 
