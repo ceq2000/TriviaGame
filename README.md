@@ -1,4 +1,4 @@
-# Trivia Game - Nutrition (JavaScript Assignment 2)
+# JavaScript Assignment 2: Trivia Game
 
 ### **Creator:** `Carlos Quinones`
 **Type of Project:** `Javascript/JQuery Trivia Game`
