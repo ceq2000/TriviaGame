@@ -40,9 +40,9 @@ This trivia game is a timed nutrition trivia questionnaire, where a user has to 
 - when user clicks "Play Again?" button
 
 **The game alerts are:**
+- "select your answer below before proceeding" Displays if user attempts to go to next question prior to answering current question.
 - "Quiz Time Completed!" Displays when time runs out or user completes the quiz 
 - "You scored: x out of: 10" Displays when time runs out or user completes the quiz 
-- "select your answer below before proceeding" Displays if user attempts to navigate to the next question prior to answering the current question.
 
 ## List of Technologies Used:
 - - - 
