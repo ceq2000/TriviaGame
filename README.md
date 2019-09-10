@@ -17,7 +17,7 @@ Completed on: Sep 10th 2019
 ## Description of Application
 - - -
 
-This trivia game is a timed nutrition trivia questionnaire, where a user has to answer a set of 10 questions in less than 3:00 minutes. The user can only choose one answer per question. The game ends, if the 3:00 minute timer runs out or when the user has clicked on a radio button on each of the 10 game questions. At the end of the game, the user will see a summary of the given answers against the correct answers. The correct answers will be displayed with a green border around the selected answer while the wrong answers will display a red border around the selected answer. 
+This trivia game is a timed nutrition trivia questionnaire, where a user has to answer a set of 10 questions in less than 3:00 minutes. The user can only choose one answer per question. The game ends, if the 3:00 minute timer runs out or when the user has clicked on a radio button on each of the 10 game questions. At the end of the game, the user will see a summary of the given answers against the correct answers. The correct answers will be displayed with a green border around the selected answer while the wrong answers will display a red border around the selected answer. The user must make an answer selection to move to the next question. 
 
 ## Javascript File
 - - -
@@ -38,6 +38,11 @@ This trivia game is a timed nutrition trivia questionnaire, where a user has to 
 - when user clicks "Previous Question" button
 - when user clicks "Review Your Answers" button
 - when user clicks "Play Again?" button
+
+**The game alerts are:**
+-"Quiz Time Completed!" // Displays when time runs out or user completes the quiz 
+-"You scored: x out of: 10" // Displays when time runs out or user completes the quiz 
+- "select your answer below before proceeding" //Displays if user attempts to navigate to the next question prior to answering the current question.
 
 ## List of Technologies Used:
 - - - 
